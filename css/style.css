@@ -1,0 +1,245 @@
+/* ここから下に記載していく */
+
+/* 横並び */
+
+
+/* 共通 */
+.mt40 {
+    margin-top: 40px;
+    text-align: center; 
+}
+
+.section .h2 {
+    margin: 60px auto 60px;
+    font-size: 2.5rem;
+    position: relative;
+    letter-spacing: .1em;
+    color: #ffd61a;
+    line-height: 1.2;
+    display: table;
+    margin-bottom: 2.1em;
+    z-index: 1;
+}
+
+.section .h2 span {
+    font-size: 0.95rem;
+    display: block;
+    margin-top: 1rem;
+    font-weight: 400;
+    font-family: "Caveat", cursive;
+}
+
+
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+
+
+/* Topセクション */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+
+    }
+    
+    
+    nav ul {
+    display: flex;
+    list-style: none;
+    }
+    
+    
+    nav ul li {
+    margin-left: 20px;
+    }
+    
+    nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    }
+    
+    nav ul li a:hover {
+    color: gray;
+    }
+    
+
+
+/* キャッチコピーセクション */
+.catch_copy_text{
+    background-image: url(../img/mainbg.png);
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-top: 160px;
+}
+
+
+
+/* Aboutセクション */
+.about-img img {
+    width: 100%; /* 横方向にいっぱい */
+    height: auto; /* 縦横比を維持 */
+}
+
+
+
+/* コースセクション */
+
+.section.course .course_caption {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: flex-start;
+}
+
+.section.course .course_caption dt, .section.course .course_caption dd {
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section.course .course_caption dd .h3 {
+    font-size: 1.5rem;
+    top: -1.5rem;
+    /* right: -1rem; */
+    position: absolute;
+}
+
+.section.course .course_caption dd {
+    background: #fff9dc;
+    margin: 5rem 0 0 -1rem;
+    z-index: -1;
+    position: relative;
+    padding: 4rem 4rem 3.5rem;
+}
+
+.section.course .course_caption dd {
+    background: #fff9dc;
+    margin: 5rem 0 0 -1rem;
+    z-index: -1;
+    position: relative;
+    padding: 4rem 4rem 3.5rem;
+}
+
+.section.course .course_caption.reverse dt {
+    order: 2;
+}
+
+.section.course .course_caption.reverse dd {
+    order: 1;
+}
+
+.section.course .course_caption {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: flex-start;
+}
+
+
+
+/*ニュースセクション*/
+.news-list {
+    display: inline-flex;
+    gap: 0 30px;
+    margin: 0 auto 60px;
+}
+
+.news-list .news-list-item {
+    width: 300px;
+    text-align: left;
+}
+
+.news-list .news-list-item .news-list-item-date {
+    margin-bottom: 24px;
+}
+
+.news-list .news-list-item {
+    width: 300px;
+    text-align: left;
+}
+
+.news-list .news-list-item .news-list-item-date {
+    margin-bottom: 24px;
+}
+
+.news-list .news-list-item {
+    width: 300px;
+    text-align: left;
+}
+
+.news-btm {
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.news-list-item {
+    position: relative; /* 親要素を基準に */
+}
+
+.news-list-item figure img {
+    width: 100%;
+    transition: transform 0.3s ease; /* スムーズな変形 */
+}
+
+.news-list-item figure img:hover {
+    transform: scale(1.1); /* ホバー時に拡大 */
+}
+
+.news-list-item-date, .news-list-item-text {
+    position: relative;
+    z-index: 10; /* テキストを前面に表示 */
+    background-color: rgba(255, 255, 255, 0.8); /* テキスト背景を半透明にして読みやすく */
+    display: inline-block; /* 要素全体に背景を付ける */
+    padding: 5px;
+}
+
+
+
+
+/*  アクセスセクション*/
+.access-date {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    max-width: 600px;
+    margin: 60px auto;
+}
+
+.map-container {
+    width: 100%; /* 横方向にいっぱい */
+    height: 500px; /* 必要に応じて高さを調整 */
+}
+
+.map-container iframe {
+    width: 100%; /* 横方向にいっぱい */
+    height: 100%; /* 高さを親要素にフィット */
+    border: 0; /* 枠線を消す */
+}
+
+
+
+
+/* コンタクトセクション */
+.pagetop {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: #fff;
+    border: solid 2px #ffd61a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
